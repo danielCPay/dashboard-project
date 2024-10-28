@@ -16,5 +16,9 @@ export default defineConfig({
     quasar({
       sassVariables: '/src/quasar-variables.sass'
     })
-  ]
+  ],
+  base: '/dashboard-project/',
+  build: {
+    assetsDir: 'js/' //https://vitejs.dev/config/#build-outdir
+  }
 })
