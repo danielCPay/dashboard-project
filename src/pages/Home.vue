@@ -1,6 +1,6 @@
 <template>
   <div class="row q-pt-sm">
-    <div class="col-10 q-px-sm">
+    <div class="col-12 q-px-sm">
       <q-card class="card-container">
         <q-card-section class="column">
           <div class="text-title">Claims</div>
